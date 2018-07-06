@@ -21,6 +21,12 @@ class WxController extends Controller
         $this->app_secret = '88dfc10cd4f5597ed4c0939443797460';
     }
 
+    //test
+    public function index()
+    {
+        dd(111);
+    }
+
     //微信分享
     function shareWx()
     {
